@@ -36,7 +36,7 @@ int main(int argc, char* argv[])
 	Gr.addNode(8, {7});
 	#endif
 
-	Graph Gr = generate(CountNodes, CountNodes - 5);
+	Graph Gr = generate(CountNodes, CountNodes - 1);
 	Gr.print("Graph.png");
 
 	Graph DomTreeGr = Gr.getDomTree();
